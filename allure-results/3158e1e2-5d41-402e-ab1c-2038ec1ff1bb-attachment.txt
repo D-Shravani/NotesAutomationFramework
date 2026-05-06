@@ -1,0 +1,5 @@
+[32mINFO    [0m utils.logger:test_login.py:19 Starting login test
+[32mINFO    [0m utils.logger:test_login.py:23 Opening login page
+[32mINFO    [0m utils.logger:test_login.py:31 Entering credentials
+[32mINFO    [0m utils.logger:test_login.py:38 Login submitted
+[32mINFO    [0m utils.logger:test_login.py:42 Login test passed successfully
