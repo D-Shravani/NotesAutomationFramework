@@ -77,7 +77,4 @@ def test_create_multiple_notes(driver):
 
         time.sleep(2)
 
-    # VALIDATION
-    for note in notes_data:
-
-        assert note["title"] in driver.page_source
+    

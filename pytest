@@ -1,0 +1,116 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.11, pytest-9.0.3, pluggy-1.6.0 -- C:\Users\dsaik\OneDrive\Desktop\NotesAutomationFramework\venv\Scripts\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.13.11', 'Platform': 'Windows-11-10.0.26200-SP0', 'Packages': {'pytest': '9.0.3', 'pluggy': '1.6.0'}, 'Plugins': {'allure-pytest': '2.16.0', 'html': '4.2.0', 'metadata': '3.1.1', 'xdist': '3.8.0'}}
+rootdir: C:\Users\dsaik\OneDrive\Desktop\NotesAutomationFramework
+configfile: pytest.ini
+testpaths: tests
+plugins: allure-pytest-2.16.0, html-4.2.0, metadata-3.1.1, xdist-3.8.0
+created: 12/12 workers
+12 workers [13 items]
+
+scheduling tests via LoadScheduling
+
+tests/test_api_negative.py::test_get_notes_invalid_token 
+tests/test_create_note_negative.py::test_create_note_without_category 
+tests/test_api_negative.py::test_get_notes_without_token 
+tests/test_create_note_negative.py::test_create_note_without_description 
+tests/test_create_note_negative.py::test_create_note_without_title 
+tests/test_login.py::test_login 
+tests/test_api_negative.py::test_delete_already_deleted_note 
+tests/test_api_negative.py::test_delete_note_invalid_id 
+tests/test_delete_note_ui_validation.py::test_delete_specific_note 
+tests/test_login_negative.py::test_login_without_email 
+tests/test_get_notes_api.py::test_get_notes_api 
+tests/test_login_negative.py::test_login_without_password 
+[gw1] [  7%] PASSED tests/test_api_negative.py::test_get_notes_without_token 
+[gw0] [ 15%] PASSED tests/test_api_negative.py::test_get_notes_invalid_token 
+tests/test_login_negative.py::test_login_invalid_credentials 
+[gw2] [ 23%] PASSED tests/test_api_negative.py::test_delete_note_invalid_id 
+[gw8] [ 30%] PASSED tests/test_get_notes_api.py::test_get_notes_api 
+[gw3] [ 38%] PASSED tests/test_api_negative.py::test_delete_already_deleted_note 
+[gw11] [ 46%] PASSED tests/test_login_negative.py::test_login_without_password 
+[gw10] [ 53%] PASSED tests/test_login_negative.py::test_login_without_email 
+[gw4] [ 61%] PASSED tests/test_create_note_negative.py::test_create_note_without_title 
+[gw9] [ 69%] PASSED tests/test_login.py::test_login 
+[gw6] [ 76%] PASSED tests/test_create_note_negative.py::test_create_note_without_category 
+[gw0] [ 84%] PASSED tests/test_login_negative.py::test_login_invalid_credentials 
+[gw5] [ 92%] PASSED tests/test_create_note_negative.py::test_create_note_without_description 
+[gw7] [100%] PASSED tests/test_delete_note_ui_validation.py::test_delete_specific_note 
+
+=================================== ERRORS ====================================
+_________________ ERROR collecting tests/test_create_note.py __________________
+tests\test_create_note.py:81: in <module>
+    notes_elements = driver.find_elements(
+                     ^^^^^^
+E   NameError: name 'driver' is not defined
+_________________ ERROR collecting tests/test_create_note.py __________________
+tests\test_create_note.py:81: in <module>
+    notes_elements = driver.find_elements(
+                     ^^^^^^
+E   NameError: name 'driver' is not defined
+_________________ ERROR collecting tests/test_create_note.py __________________
+tests\test_create_note.py:81: in <module>
+    notes_elements = driver.find_elements(
+                     ^^^^^^
+E   NameError: name 'driver' is not defined
+_________________ ERROR collecting tests/test_create_note.py __________________
+tests\test_create_note.py:81: in <module>
+    notes_elements = driver.find_elements(
+                     ^^^^^^
+E   NameError: name 'driver' is not defined
+_________________ ERROR collecting tests/test_create_note.py __________________
+tests\test_create_note.py:81: in <module>
+    notes_elements = driver.find_elements(
+                     ^^^^^^
+E   NameError: name 'driver' is not defined
+_________________ ERROR collecting tests/test_create_note.py __________________
+tests\test_create_note.py:81: in <module>
+    notes_elements = driver.find_elements(
+                     ^^^^^^
+E   NameError: name 'driver' is not defined
+_________________ ERROR collecting tests/test_create_note.py __________________
+tests\test_create_note.py:81: in <module>
+    notes_elements = driver.find_elements(
+                     ^^^^^^
+E   NameError: name 'driver' is not defined
+_________________ ERROR collecting tests/test_create_note.py __________________
+tests\test_create_note.py:81: in <module>
+    notes_elements = driver.find_elements(
+                     ^^^^^^
+E   NameError: name 'driver' is not defined
+_________________ ERROR collecting tests/test_create_note.py __________________
+tests\test_create_note.py:81: in <module>
+    notes_elements = driver.find_elements(
+                     ^^^^^^
+E   NameError: name 'driver' is not defined
+_________________ ERROR collecting tests/test_create_note.py __________________
+tests\test_create_note.py:81: in <module>
+    notes_elements = driver.find_elements(
+                     ^^^^^^
+E   NameError: name 'driver' is not defined
+_________________ ERROR collecting tests/test_create_note.py __________________
+tests\test_create_note.py:81: in <module>
+    notes_elements = driver.find_elements(
+                     ^^^^^^
+E   NameError: name 'driver' is not defined
+_________________ ERROR collecting tests/test_create_note.py __________________
+tests\test_create_note.py:81: in <module>
+    notes_elements = driver.find_elements(
+                     ^^^^^^
+E   NameError: name 'driver' is not defined
+- Generated html report: file:///C:/Users/dsaik/OneDrive/Desktop/NotesAutomationFramework/reports/parallel_report.html -
+=========================== short test summary info ===========================
+ERROR tests/test_create_note.py - NameError: name 'driver' is not defined
+ERROR tests/test_create_note.py - NameError: name 'driver' is not defined
+ERROR tests/test_create_note.py - NameError: name 'driver' is not defined
+ERROR tests/test_create_note.py - NameError: name 'driver' is not defined
+ERROR tests/test_create_note.py - NameError: name 'driver' is not defined
+ERROR tests/test_create_note.py - NameError: name 'driver' is not defined
+ERROR tests/test_create_note.py - NameError: name 'driver' is not defined
+ERROR tests/test_create_note.py - NameError: name 'driver' is not defined
+ERROR tests/test_create_note.py - NameError: name 'driver' is not defined
+ERROR tests/test_create_note.py - NameError: name 'driver' is not defined
+ERROR tests/test_create_note.py - NameError: name 'driver' is not defined
+ERROR tests/test_create_note.py - NameError: name 'driver' is not defined
+======================= 13 passed, 12 errors in 51.32s ========================
